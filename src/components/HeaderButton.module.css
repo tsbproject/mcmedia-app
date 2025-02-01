@@ -1,0 +1,50 @@
+.btnwhiteheader {
+    background-color: var(--color-brand--1);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 5rem; 
+    border-radius: 1rem;
+    transition: all .2s;
+    position: relative;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--color-light--1);
+    margin-top: 8rem;
+    margin-right: 2rem;
+    border: none;
+    cursor: pointer;
+
+
+    backface-visibility: hidden
+
+    }
+
+    @media only screen and (max-width: 37.5em) {
+        .btnwhiteheader {
+            margin-top: 7rem;
+            margin-right: 10rem;
+        }
+    }
+
+
+    @media only screen and (max-width: 25em) {
+        .btnwhiteheader {
+            margin-top: 7rem;
+            margin-right: 10rem;
+        }
+    }
+
+
+.btnwhiteheader:hover {
+    transform: translateY(-1rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2) ;
+    background-color: var(--color-brand--2);
+    color: var(--color-brand--1);
+
+}
+
+
+
+  
+  
+  

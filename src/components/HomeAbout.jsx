@@ -1,11 +1,14 @@
 import styles from './HomeAbout.module.css'
+import SiteButton from './SiteButton'
+import MarqueeScroll from './MarqueeScroll'
 
 
 function HomeAbout() {
     return (
         <>
         <div className={styles.homeHeading}>
-            <h2 className={styles.homeaboutheading}>digital solutions that help businesses and individuals</h2>
+            <MarqueeScroll />
+            
             </div>       
          <div className={styles.homeabout}>
             <div className={styles.homeaboutcontent}>
@@ -22,7 +25,7 @@ function HomeAbout() {
                      customer service and support throughout thedevelopment process and after.
                 </p>
 
-                <button className={styles.homeaboutbtn}>Learn More</button>
+                <SiteButton />
                 
                 
                

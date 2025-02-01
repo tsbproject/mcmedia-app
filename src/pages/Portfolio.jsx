@@ -1,6 +1,9 @@
+import styles from './Portfolio.module.css'
+
 function Portfolio() {
     return (
-        <div>
+        <div className={styles.portfolio}>
+        
             
         </div>
     )

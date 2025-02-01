@@ -1,0 +1,72 @@
+.testimonialContainer {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .testimonialCard {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  
+  .testimonialCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .feedback {
+    font-style: italic;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .category {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+  }
+  
+  /* Category-specific Borders */
+  .WebDevelopment {
+    border-left: 5px solid #007bff;
+  }
+  
+  .CreativeDesign {
+    border-left: 5px solid #e91e63;
+  }
+  
+  .DigitalMarketing {
+    border-left: 5px solid #ff9800;
+  }
+  
+  .WebAppDevelopment {
+    border-left: 5px solid #4caf50;
+  }
+  

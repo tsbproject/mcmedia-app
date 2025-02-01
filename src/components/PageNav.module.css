@@ -2,11 +2,35 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 4rem;
+    margin-right: -40rem;
     margin-top: 5rem;
    
 
 }
+
+@media only screen and (max-width: 1100px) {
+  .nav {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -10rem;
+    margin-top: 5rem;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .nav {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -10rem;
+    margin-top: 5rem;
+  }
+}
+
 
 .nav ul {
     list-style: none;
@@ -14,6 +38,17 @@
     align-items: center;
     gap: 4rem;
 }
+
+@media only screen and (max-width: 900px) {
+  .nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+  
+  }
+}
+
 
 
 .nav a:link,
@@ -25,6 +60,8 @@
   font-weight: 600;
 }
 
+
+
 /* CSS Modules feature */
 .nav a:global(.active) {
   color: var(--color-brand--2);
@@ -35,4 +72,54 @@
   .nav {
     display: none;
   }
+}
+
+
+.nav ul li a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+/* Mega Dropdown */
+.dropdown {
+  position: relative;
+}
+
+.megaMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 400px;
+  background: var(--color-brand--1);
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  z-index: 10;
+}
+
+.megaGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.megaItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+  transition: background 0.3s ease;
+}
+
+.megaItem:hover {
+  background: #f1f1f1;
+}
+
+.icon {
+  font-size: 20px;
+  color: var(--color-brand--2);
+  margin-right: 10px;
 }

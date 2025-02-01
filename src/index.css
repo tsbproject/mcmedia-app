@@ -9,6 +9,7 @@
 :root {
   --color-brand--1:  #11009E;
   --color-brand--2: #8AB800 ;
+  --color-brand--3: #078b33 ;
 
   --color-dark--0: #242a2e;
   --color-dark--1: #2d3439;
@@ -25,6 +26,12 @@
   --bp-small: 37.05em; /* 600px/16 */
   --bp-smaller: 31.25em; /* 500px/16 */
   --bp-smallest: 25em; /* 400px/16 */
+}
+
+
+:root {
+  --font-display: "Poppins", sans-serif;
+  font-family: var(--font-display);
 }
 
 
@@ -49,8 +56,18 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppinss", sans-serif;
   color: var(--color-light--2);
   font-weight: 400;
   line-height: 1.6;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+  .smhd{
+     visibility: hidden;
+      
+  }
+
 }
