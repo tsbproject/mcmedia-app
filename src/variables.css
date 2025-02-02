@@ -1,0 +1,23 @@
+body {
+--primary-font: 1.7rem;
+font-size: var(--primary-font);
+
+--secondary-font: 1.5rem;
+font-size: var(--secondary-font);
+
+--tertiary-font: 1.2rem;
+font-size: var(--tertiary-font);
+
+
+
+--heading-primary-font: 5.5rem;
+font-size: var(--primary-font);
+
+--heading-secondary-font: 3.5rem;
+font-size: var(--secondary-font);
+
+--heading-tertiary-font: 2.5rem;
+font-size: var(--secondary-font);
+
+
+}

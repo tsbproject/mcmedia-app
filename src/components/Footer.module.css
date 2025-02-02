@@ -1,4 +1,5 @@
 .footer {
+  position: relative;
     background: var( --color-brand--1);
     color: white;
     padding: 40px 20px;
@@ -63,7 +64,7 @@
   .footerGrid h3 {
     font-size: 18px;
     margin-bottom: 15px;
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid var(--color-brand--2);
     display: inline-block;
     padding-bottom: 5px;
   }
@@ -85,11 +86,12 @@
   
   .footerGrid ul li a:hover {
     color: #007bff;
+    text-decoration: underline;
   }
   
   .icon {
     margin-right: 10px;
-    color: #007bff;
+    color: var(--color-brand--2);
   }
   
   .logo {
@@ -103,4 +105,7 @@
     padding-top: 15px;
     font-size: 14px;
   }
+
+
+  
   

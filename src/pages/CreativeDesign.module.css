@@ -1,26 +1,460 @@
 .creativedesign {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
+  
+   
+
+}
   
   .cd {
-    width: 80%;
-    max-width: 1200px;
+    width: 100%;
+   
   }
   
   .cdbanner {
-    text-align: center;
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 8px;
+    background-color: var(--color-brand--2);
+    padding: 5rem;
+   
   }
+
+  .cdbanner h1 {
+    font-size: 3rem;
+    font-family: var(--font-display);
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+
+  .cdbanner p {
+    font-size:  var(--secondary-font);
+    font-weight: normal;
+  }
+
+  .cddetails {
+     display: grid;
+     grid-template-columns:  repeat(2, 1fr);
+     padding: 2rem 3rem;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .cddetails {
+     
+       
+        
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .cddetails {
+       
+    
+      grid-template-columns:  repeat(1, 1fr);
+       
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .cddetails {
+       
+      grid-template-columns:  repeat(1, 1fr);
+      
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .cddetails {
+       
+      grid-template-columns:  repeat(1, 1fr);
+       
+    }
+
+}
+
+  .cddetails h1 {
+    font-size: 3rem;
+    font-family: var(--font-display);
+    color: var(--color-brand--2);
+  }
+
+  .cddetails p {
+    font-size:  var(--primary-font);
+    font-family: var(--font-display);
+    color: var(--color-dark--1);
+    margin-top: 2.5rem;
+  }
+  
   
   .cddetailimg {
     width: 100%;
     max-width: 600px;
     display: block;
     margin: 20px auto;
+    border-radius: 1.5rem;
+    outline: 3rem;
+    outline-color: var(--color-brand--2);
+    outline-width: 2rem;
+    
   }
+
+
+
+  .cdgrids {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 3rem;
+    padding: 2rem 4rem;
+    margin-top: 15rem;
+  
+   
+
+  }
+
+  @media only screen and (max-width: 900px) {
+    .cdgrids {
+       
+       grid-template-columns: repeat(1, 1fr);
+        
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .cdgrids {
+       
+      grid-template-columns: repeat(1, 1fr);
+       
+       
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .cdgrids {
+       
+      grid-template-columns: repeat(1, 1fr);
+      
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .cdgrids {
+       
+      grid-template-columns: repeat(1, 1fr);
+       
+    }
+
+}
+
+
+  .cdgrid1 {
+    display: grid;
+    gap: 3rem;
+    align-content: center;
+    justify-items: center;
+    background-color: var(--color-brand--1);
+    height: 40rem;
+    padding: 0 1rem;
+    border-radius: 1rem;
+ 
+  
+  }
+
+  @media only screen and (max-width: 900px) {
+    .cdgrid1 {
+       
+        padding: 0 3rem;
+        
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .cdgrid1 {
+       
+        gap: 2.5rem;
+       
+       
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .cdgrid1 {
+       
+        gap: 2.5rem;
+       
+      
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .cdgrid1 {
+       
+      
+     
+       
+    }
+
+}
+
+  .cdgrid1 h2 {
+     font-size: 3rem;
+     font-family: var(--font-display);
+     font-weight: 600;
+     color: var(--color-brand--2);
+
+
+  }
+
+  .cdgrid1 p {
+    font-size: var(--primary-font);
+    color: var(--color-light--2);
+    text-align: center;
+  
+  }
+
+  .cdgrid1 hr {
+    width: 50%;
+    position: relative;
+    bottom: 4rem;
+    
+  }
+
+
+  .cdgrid2 {
+    display: grid;
+    gap: 3rem;
+    align-content: center;
+    justify-items: center;
+    background-color: var(--color-brand--2);
+    height: 40rem;
+    padding: 0 1rem;
+    border-radius: 1rem;
+    margin-top: -5rem;
+
+    
+
+    
+ 
+  }
+
+
+  @media only screen and (max-width: 900px) {
+    .cdgrid2 {
+       
+       
+        
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .cdgrid2 {
+       
+      margin-top: 0;
+       
+       
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .cdgrid2 {
+       
+       margin-top: 0;
+      
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .cdgrid2 {
+       
+        margin-top: 0;
+       
+    }
+
+}
+
+  .cdgrid2 h2 {
+     font-size: 3rem;
+     font-family: var(--font-display);
+     font-weight: 600;
+     color: var(--color-brand--1);
+
+
+  }
+
+  .cdgrid2 p {
+    font-size: var(--primary-font);
+    color: var(--color-light--2);
+    text-align: center;
+  
+  }
+
+  .cdgrid2 hr {
+    width: 50%;
+    position: relative;
+    bottom: 4rem;
+    
+  }
+
+  
+  .cdgrid3 {
+    display: grid;
+    gap: 3rem;
+    align-content: center;
+    justify-items: center;
+    background-color: var(--color-brand--1);
+    height: 40rem;
+    padding: 0 1rem;
+    border-radius: 1rem;
+    margin-top: -10rem;
+ 
+  }
+
+  @media only screen and (max-width: 900px) {
+    .cdgrid3 {
+       
+       
+        
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .cdgrid3 {
+       
+      margin-top: 0;
+       
+       
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .cdgrid3 {
+       
+       margin-top: 0;
+      
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .cdgrid3 {
+       
+        margin-top: 0;
+       
+    }
+
+}
+
+  
+
+  .cdgrid3 h2 {
+     font-size: 3rem;
+     font-family: var(--font-display);
+     font-weight: 600;
+     color: var(--color-brand--2);
+
+
+  }
+
+  .cdgrid3 p {
+    font-size: var(--primary-font);
+    color: var(--color-light--2);
+    text-align: center;
+  
+  }
+
+  .cdgrid3 hr {
+    width: 50%;
+    position: relative;
+    bottom: 4rem;
+    
+  }
+
+
+
+  .cdgrid4 {
+    display: grid;
+    gap: 3rem;
+    align-content: center;
+    justify-items: center;
+    background-color: var(--color-brand--2);
+    height: 40rem;
+    padding: 0 1rem;
+    border-radius: 1rem;
+    margin-top: -15rem;
+ 
+  }
+
+  @media only screen and (max-width: 900px) {
+    .cdgrid4 {
+       
+       
+        
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .cdgrid4 {
+       
+      margin-top: 0;
+       
+       
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .cdgrid4 {
+       
+       margin-top: 0;
+      
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .cdgrid4 {
+       
+        margin-top: 0;
+       
+    }
+
+}
+
+  .cdgrid4 h2 {
+     font-size: 3rem;
+     font-family: var(--font-display);
+     font-weight: 600;
+     color: var(--color-brand--1);
+
+
+  }
+
+  .cdgrid4 p {
+    font-size: var(--primary-font);
+    color: var(--color-light--2);
+    text-align: center;
+  
+  }
+
+  .cdgrid4 hr {
+    width: 50%;
+    position: relative;
+    bottom: 4rem;
+    
+  }
+
+
+
+
+
+
   

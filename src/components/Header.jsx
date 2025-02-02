@@ -11,7 +11,7 @@ function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50); // Shrinks when scrolled 50px down
+      setIsScrolled(window.scrollY > 50); 
     };
 
     window.addEventListener("scroll", handleScroll);

@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
+import FooterSocialIcons from "./FooterSocialIcons";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+
 
 
 const Footer = () => {
@@ -50,7 +52,7 @@ const Footer = () => {
           <p><FaEnvelope className={styles.icon} /> info@marvelcmedia.com</p>
           <p><FaMapMarkerAlt className={styles.icon} /> D110, Ogba Central Mall, Ogba, Lagos</p>
 
-        
+          <FooterSocialIcons />
          
         </div>
        

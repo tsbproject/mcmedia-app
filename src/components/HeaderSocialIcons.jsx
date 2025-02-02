@@ -9,31 +9,31 @@ function HeaderSocialIcons() {
         <div className={styles.headersocialicons}>
             
             <svg className={styles.socialiconsvg}>
-                <Link to="https:/facebook.com">
+                <Link to="https:/facebook.com " target="_blank">
                 <use href="sprite.svg#icon-facebook"></use>
                 </Link>
             </svg>
 
             <svg className={styles.socialiconsvg}>
-                <Link to="https:/instagram.com">
+                <Link to="https:/instagram.com" target="_blank">
                 <use href="sprite.svg#icon-instagram"></use>
                 </Link>
             </svg>
 
             <svg className={styles.socialiconsvg}>
                 <Link to="https:/x.com">
-                <use href="sprite.svg#icon-twitter"></use>
+                <use href="sprite.svg#icon-twitter" target="_blank"></use>
                 </Link>
             </svg>
 
             <svg className={styles.socialiconsvg}>
                 <Link to="https:/tiktok.com">
-                <use href="sprite.svg#icon-tiktok"></use>
+                <use href="sprite.svg#icon-tiktok" target="_blank"></use>
                 </Link>
             </svg>
 
             <svg className={styles.socialiconsvg}>
-                <Link to="https:/youtube.com">
+                <Link to="https:/youtube.com" target="_blank">
                 <use href="sprite.svg#icon-youtube"></use>
                 </Link>
             </svg>

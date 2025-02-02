@@ -1,0 +1,69 @@
+.footersocialicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: absolute;
+    top: 23rem;
+    right: 11rem;
+
+
+    
+   
+ 
+   
+   }
+
+   @media only screen and (max-width: 768px) {
+    .footersocialicons {
+        display: none;
+        
+       
+     
+       
+       }
+   }
+ 
+ 
+  
+ 
+ 
+ .fsocialiconsvg {
+   width: 3rem;
+   height: 3rem;
+   fill: var(--color-brand--2); 
+   border: solid .2rem var(--color-brand--2);
+   border-radius: 50%;
+   padding: .5rem;
+   transition: all .3s;
+ 
+ 
+ }
+
+
+ .fsocialiconsvg :link,
+ .fsocialiconsvg :visited{
+  fill: var(--color-brand--2); 
+      
+ }
+
+.fsocialiconsvg:hover {
+  fill: var(--color-primary-black);
+  width: 4rem;
+  height: 4rem;
+  border: solid .2rem var(--color-primary-black);
+}
+ 
+ 
+   
+   
+
+
+    
+ 
+ 
+ 
+ 
+ 
+
+ 

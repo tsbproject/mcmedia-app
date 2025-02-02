@@ -123,6 +123,7 @@
 
     .phone {
       display: flex;
+      text-decoration: none;
       justify-content: center;
       align-items: center;
       gap: 1rem;
