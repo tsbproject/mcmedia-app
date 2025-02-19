@@ -1,0 +1,224 @@
+.webdevelopmentTraining {
+  position: relative;
+  
+
+}
+
+.wdtHeader {
+    height: 15rem;
+    background-color: var(--color-dark--1);
+}
+
+@media only screen and (max-width : 600px) {
+  .wdtHeader {
+    height: 20rem;
+  }
+}
+
+@media only screen and (max-width : 500px) {
+  .wdtHeader {
+    height: 20rem;
+  }
+}
+
+@media only screen and (max-width : 400px) {
+        .wdtHeader {
+          height: 20rem;
+        }
+}
+
+
+.wdtHeader h1{
+    background-image: linear-gradient(  
+        var(--color-dark--1), 
+        var(--color-brand--2)  100%) 
+        ;
+    
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        font-size: var(--heading-primary-font);
+        font-family: var(--font-display);
+      
+}
+
+@media only screen and (max-width : 600px) {
+  .wdtHeader h1 {
+    font-size: var(--heading-secondary-font);
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width : 500px) {
+  .wdtHeader h1 {
+    font-size: var(--heading-secondary-font);
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width : 400px) {
+  .wdtHeader h1 {
+    font-size: var(--heading-secondary-font);
+    text-align: center;
+  }
+}
+
+
+.wdtForm {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 0 8rem;
+    height: 100rem;
+    z-index: 10;
+    position: relative;
+    top: -6rem;
+   
+
+}
+
+@media only screen and (max-width : 1200px) {
+  .wdtForm {
+     height: 117rem;
+  }
+}
+
+
+@media only screen and (max-width : 1100px) {
+  .wdtForm {
+     height: 130rem;
+  }
+}
+
+
+
+@media only screen and (max-width : 900px) {
+  .wdtForm {
+     height: 300rem;
+  }
+}
+
+
+
+@media only screen and (max-width : 600px) {
+  .wdtForm {
+     height: 340rem;
+  }
+}
+
+@media only screen and (max-width : 500px) {
+  .wdtForm {
+     height: 350rem;
+  }
+}
+
+@media only screen and (max-width : 400px) {
+  .wdtForm {
+     height: 360rem;
+
+     position: relative;
+     right: 1.7rem;
+  }
+}
+
+
+.wdtBackground {
+    background-image: 
+      linear-gradient(rgba(138, 184, 0.9)  , rgba(58, 0, 184, 0.7) ), 
+      url("web-training3.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+
+
+  }
+
+  @media only screen and (max-width : 1200px) {
+    .wdtBackground {
+       height: 113rem;
+    }
+  }
+
+  @media only screen and (max-width : 1100px) {
+    .wdtBackground {
+       height: 130rem;
+    }
+  }
+  
+
+  @media only screen and (max-width : 900px) {
+    .wdtBackground {
+       height: 240rem;
+    }
+  }
+  
+   
+
+  
+
+   .wdtBackground h2 {
+       display: flex;
+       align-items: center;
+       justify-items: center;
+       font-size: var(--heading-secondary-font);
+       font-weight: 700;
+       text-transform: uppercase;
+       font-family: var(--font-display);
+       color: var(--color-brand--1);
+       position: relative;
+       width: 100%;
+       text-align: center;
+      
+      
+  }
+
+
+  .wdtBackground h2::before,
+  .wdtBackground h2::after {
+   content: "";
+   height: 2px;
+   background-color: var(--color-brand--1);
+   flex: 1;
+   margin: 0 1.5rem;
+
+  } 
+
+
+  .wdtBackground h3 {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: var(--heading-tertiary-font);
+    font-family: var(--font-display);
+    color: var(--color-brand--1);
+    text-transform: uppercase;
+     text-align: center;
+     margin-top: 2rem;
+     width: 100%;
+  }
+
+  .wdtBackground h3::before,
+  .wdtBackground h3::after {
+    content: "";
+   height: .2rem;
+   background-color: var(--color-brand--1);
+  
+   flex: 1;
+
+  }
+
+ 
+
+ 
+
+
+  .wdtBackground p {
+    font-size: var(--primary-font);
+    color: var(--color-light--3);
+    margin-top: 3rem;
+
+  }
+  
+  

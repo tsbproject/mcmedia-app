@@ -1,0 +1,107 @@
+.digitalMarketing {
+    background: var(--color-brand--1) ;
+     
+ }
+
+
+ .dmHeader  {
+    padding: 2rem 4rem;
+    display: flex;
+     gap: 6rem;
+ }
+
+ .dmHeader svg {
+    width: 30rem;
+    height: 30rem;
+    fill: var(--color-brand--2);
+ }
+
+ .dmHeader h1 {
+    font-size: 8rem;
+    font-family: var(--font-display);
+    line-height: 1.2;
+    color: var(--color-light--1);
+}
+
+.dmHeader span {
+    background-image: linear-gradient(  
+    var( --color-dark--1), 
+    var(--color-brand--2)  100%) 
+    ;
+
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.dmMain {
+    display: flex;
+    
+    padding: 2rem 6rem;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+
+.dmMain img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 3rem;
+    filter: brightness(70%);
+    
+}
+
+
+
+
+
+  .dmService {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    background-color: var(--color-brand--1);
+  }
+  
+  .serviceGrid {
+    background: var(--color-brand--1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .serviceGrid:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+    border: .1rem solid var(--color-brand--2);
+  }
+  
+  .serviceIcon {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .serviceIcon svg {
+    color: var(--color-brand--2);
+  }
+  
+ .serviceGrid h2 {
+    font-size: 2.3rem;
+    color: var(--color-brand--2);
+    margin-bottom: 10px;
+    
+  }
+  
+ .serviceGrid p {
+    font-size: 16px;
+    color: var(--color-light--3);
+    line-height: 1.5;
+  }
+  

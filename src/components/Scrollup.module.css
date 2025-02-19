@@ -4,7 +4,7 @@
     right: 20px;
     width: 50px;
     height: 50px;
-    background: #007bff;
+    background: var(--color-brand--2);
     color: white;
     border: none;
     border-radius: 50%;
@@ -16,6 +16,7 @@
     transform: translateY(20px);
     transition: opacity 0.3s ease, transform 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
   }
   
   .scrollUp.show {

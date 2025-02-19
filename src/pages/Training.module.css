@@ -1,0 +1,122 @@
+.training {
+    background: var(--color-brand--1) ;
+     
+ }
+
+
+ .trainingHeader  {
+    padding: 2rem 4rem;
+    display: flex;
+     gap: 6rem;
+ }
+
+ @media only screen and (max-width: 400px) {
+  .trainingHeader{
+    flex-direction: column;
+    
+}
+
+ }
+
+ .trainingHeader svg {
+    width: 30rem;
+    height: 30rem;
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin:round ;
+    fill: var(--color-brand--2);
+ }
+
+ .trainingHeader h1 {
+    font-size: 8rem;
+    font-family: var(--font-display);
+    line-height: 1.2;
+    color: var(--color-light--1);
+}
+
+@media only screen and (max-width: 400px) {
+  .trainingHeader h1{
+    font-size: 6rem;
+    
+}
+
+ }
+
+.trainingHeader span {
+    background-image: linear-gradient(  
+    var( --color-dark--1), 
+    var(--color-brand--2)  100%) 
+    ;
+
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.trainingMain {
+    display: flex;
+    padding: 2rem 6rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.trainingMain img {
+    width: 100%;
+    border-radius: 3rem;
+    filter: brightness(70%);
+    
+}
+
+
+
+.trainingServices {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  background-color: var(--color-brand--2);
+}
+
+.trainingService {
+  background: var(--color-brand--1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.trainingService:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.trainingServiceicon svg {
+  color: var(--color-brand--2);
+}
+
+.trainingService h2 {
+  font-size: 22px;
+  color: var(--color-light--3);
+  margin-bottom: 10px;
+}
+
+.trainingService p {
+  font-size: var(--primary-font);
+  color: var(--color-light--3);
+  line-height: 1.5;
+}
+
+
+
+
+
+
+ 

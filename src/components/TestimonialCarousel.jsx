@@ -2,6 +2,7 @@ import Slider from "react-slick";
 import styles from "./TestimonialCarousel.module.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import PopInSection from "./PopInSection";
 
 const testimonials = [
   {
@@ -55,6 +56,7 @@ const TestimonialCarousel = () => {
   };
 
   return (
+    <PopInSection>
     <div className={styles.testimonialContainer}>
       <h2>What Our Clients Say</h2>
       <Slider {...settings}>
@@ -68,6 +70,7 @@ const TestimonialCarousel = () => {
         ))}
       </Slider>
     </div>
+    </PopInSection>
   );
 };
 

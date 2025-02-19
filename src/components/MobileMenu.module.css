@@ -5,14 +5,17 @@
 
   .toggleButton {
     position: fixed;
-    top: 16px;
+    top: 9px;
     right: 16px;
     margin-top: 7rem;
     margin-right: 3rem;
     z-index: 1001; /* Higher than the menu overlay */
     background: none;
-    border: none;
+    border: .2rem solid var(--color-brand--2);
+    border-radius: 1rem;
+    padding: .7rem;
     cursor: pointer;
+
   }
   
   /* .toggleButton {
@@ -27,8 +30,8 @@
 
   
   .icon {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
    
   }
   
@@ -48,7 +51,7 @@
     margin: 0;
   }
   
-  .menuItem {
+  /* .menuItem {
     display: block;
     padding: 10px;
     color: var(--color-brand--2);
@@ -58,7 +61,7 @@
   .menuItem:hover {
     background: lightgray;
   }
-
+ */
 
 
 
@@ -73,18 +76,7 @@
     z-index: 1000; /* Lower than the toggle button */
   }
 
-   /* .menuOverlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-  } */
+   
   
   .menuList {
     list-style: none;
@@ -142,13 +134,18 @@
   .dropdown {
     position: relative;
   }
+
+  .dropdown button {
+    background-color:transparent ;
+    margin-left: 17rem;
+  }
   
   .dropdownMenu {
   
     list-style: none;
     padding: 0;
     margin-top: 10px;
-    background: white;
+    background: transparent;
     border-radius: 5px;
     overflow: hidden;
   }
@@ -160,8 +157,8 @@
     padding: 12px;
     text-decoration: none;
   
-    color: black;
-    font-size: 18px;
+    color: var(--color-light--2);
+    font-size: 12px;
     transition: background 0.3s ease;
   }
   
@@ -171,5 +168,6 @@
   
   .dropdownItem .icon {
     margin-right: 10px;
-    color: #007bff;
+    color: var(--color-brand--1);
+    font-size: 1rem;
   }

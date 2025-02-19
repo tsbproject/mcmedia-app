@@ -14,7 +14,7 @@
   @media only screen and (max-width: 900px) {
     .cta {
         grid-template-columns: repeat(1, 1fr);
-        padding: 0 3rem;
+        /* padding: 0 3rem; */
         
     }
 
@@ -43,21 +43,24 @@
 @media only screen and (max-width: 400px) {
     .cta {
        
-       grid-template-columns: repeat(1, 1fr);
-       /* gap: 2rem; */
+       /* grid-template-columns: repeat(1, 1fr); */
+       gap: 2rem;
+     
        
     }
 
 }
 
   .cta p {
-    font-size: 2.5rem;
+    font-size: var(--heading-tertiary-font);
+    color: var(--color-light--3);
      
   }
 
   .cta button {
     font-size: 2.5rem;
-      background-color: var(--color-light--2);
+      background-color: var(--color-light--3);
+      color: var(--color-brand--1);
       border-radius: 2.5rem;
       border: none;
       padding: 1.9rem  10rem;

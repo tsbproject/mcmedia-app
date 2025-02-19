@@ -1,6 +1,7 @@
 import styles from './HomeAbout.module.css'
 import SiteButton from './SiteButton'
 import MarqueeScroll from './MarqueeScroll'
+import PopInSection from './PopInSection'
 
 
 function HomeAbout() {
@@ -9,7 +10,8 @@ function HomeAbout() {
         <div className={styles.homeHeading}>
             <MarqueeScroll />
             
-            </div>       
+            </div>   
+            <PopInSection>
          <div className={styles.homeabout}>
             <div className={styles.homeaboutcontent}>
                 <h2 className={styles.homeabouttitle}>we can help you bring your vision to life.</h2>
@@ -36,6 +38,7 @@ function HomeAbout() {
 
             
         </div>
+        </PopInSection> 
         </>
     )
 }

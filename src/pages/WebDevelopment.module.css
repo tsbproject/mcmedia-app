@@ -1,0 +1,142 @@
+ .webDevelopment {
+    background: var(--color-brand--1) ;
+     
+ }
+
+
+ .wbHeader  {
+    padding: 2rem 4rem;
+    display: flex;
+    gap: 6rem;
+    
+ }
+
+
+ @media only screen and (max-width: 600px) {
+  .wbHeader{
+    flex-direction: column;
+    
+}
+
+ }
+
+ @media only screen and (max-width: 500px) {
+  .wbHeader{
+    flex-direction: column;
+    
+}
+
+ }
+
+ @media only screen and (max-width: 400px) {
+  .wbHeader{
+    flex-direction: column;
+    
+}
+
+ }
+
+ .wbHeader svg {
+    width: 30rem;
+    height: 30rem;
+    fill: var(--color-brand--2);
+ }
+
+ @media only screen and (max-width: 400px) {
+  .wbHeader svg {
+    width: 15rem;
+    height: 15rem;
+    fill: var(--color-brand--2);
+  }
+}
+
+ .wbHeader h1 {
+    font-size: 8rem;
+    font-family: var(--font-display);
+    line-height: 1.2;
+    color: var(--color-light--1);
+}
+
+@media only screen and (max-width: 400px) {
+    .wbHeader H1 {
+      font-size: 4rem;
+    }
+}
+
+.wbHeader span {
+    background-image: linear-gradient(  
+    var( --color-dark--1), 
+    var(--color-brand--2)  100%) 
+    ;
+
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.wbMain {
+    display: flex;
+    
+    padding: 2rem 6rem;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+
+.wbMain img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 3rem;
+    filter: brightness(70%);
+    
+}
+
+
+
+.wbServices {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    /* background-color: #f9f9f9; */
+  }
+  
+  .wbService {
+    background: var(--color-brand--1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .wbService:hover {
+    transform: translateY(-5px);
+  }
+  
+  .icon {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .wbServiceicon svg {
+    color: var(--color-brand--2);
+  }
+  
+  .wbService h2 {
+    font-size: 22px;
+    color: var(--color-light--3);
+    margin-bottom: 10px;
+  }
+  
+  .wbService p {
+    font-size: var(--primary-font);
+    color: var(--color-light--3);
+    line-height: 1.5;
+  }
+  

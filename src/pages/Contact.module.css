@@ -1,0 +1,126 @@
+.contact {
+  padding:0 2rem;
+}
+
+
+.contactHeader {
+    height: 20rem;
+    background: var(--color-dark--1);
+    padding: 2rem 4rem;
+}
+
+
+.contactUs {
+    padding: 50px;
+    background-color: var(--color-brand-1);
+    font-family: var(--font-display);
+  }
+  
+  /* Contact Info Grid */
+  .contactGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 2rem;
+    background-color: var(--color-brand-1);
+    
+  }
+  
+  .contactItem {
+    background:var(--color-brand--1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .iconWrapper {
+    margin-bottom: 10px;
+  }
+
+  .contactItem svg {
+    width: 10rem;
+    height: 10rem;
+    fill: var(--color-brand--2);
+    border: solid;
+    /* border-width: .2rem; */
+    border-color: var(--color-brand--2);
+    border-radius: 50%;
+    padding: 1rem
+   
+  }
+  
+  .contact h3 {
+    margin-bottom: 10px;
+    font-size: var(--heading-tertiary-font);
+    font-weight: 700;
+    color: var(--color-light--3);
+  }
+  
+  .contact p {
+    margin: 5px 0;
+    font-size: var(--secondary-font);
+    color: var(--color-light--3);
+  }
+  
+  /* Image and Contact Form Grid */
+  .formGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .imageSection img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .formSection {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formGrid h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: var(--secondary-font);
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .contactGrid, .formGrid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

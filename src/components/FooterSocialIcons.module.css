@@ -6,24 +6,35 @@
     position: absolute;
     top: 23rem;
     right: 11rem;
+ }
 
-
-    
+ @media only screen and (max-width: 600px) {
+  .footersocialicons {
+    position: absolute;
+    top: 1rem;
+    right: 20rem;
    
- 
-   
-   }
+  }
+}
 
-   @media only screen and (max-width: 768px) {
-    .footersocialicons {
-        display: none;
-        
-       
-     
-       
-       }
-   }
- 
+
+ @media only screen and (max-width: 500px) {
+  .footersocialicons {
+    position: absolute;
+    top: 2rem;
+    right: 20rem;
+   
+  }
+}
+
+ @media only screen and (max-width: 400px) {
+  .footersocialicons {
+    position: absolute;
+    top: 2rem;
+    right: 13rem;
+   
+  }
+}
  
   
  

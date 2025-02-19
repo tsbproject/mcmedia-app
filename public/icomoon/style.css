@@ -1,0 +1,108 @@
+[class^="icon"], [class*=" icon"] {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.iconname {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.iconshare {
+  width: 0.998046875em;
+}
+
+.icondocument-alt-fill {
+  width: 0.75em;
+}
+
+.icondownload {
+  width: 0.75em;
+}
+
+.iconfacebook {
+  width: 0.5881428571428571em;
+}
+
+.iconbars {
+  width: 0.8571428571428571em;
+}
+
+.iconcode {
+  width: 1.0714285714285714em;
+}
+
+.iconcode-fork {
+  width: 0.5714285714285714em;
+}
+
+.iconhtml51 {
+  width: 0.7857142857142857em;
+}
+
+.iconinstagram {
+  width: 0.8571428571428571em;
+}
+
+.iconfile-word-o {
+  width: 0.8571428571428571em;
+}
+
+.iconfile-code-o {
+  width: 0.8571428571428571em;
+}
+
+.iconwechat {
+  width: 1.1428571428571428em;
+}
+
+.iconsliders {
+  width: 0.8571428571428571em;
+}
+
+.iconshare-alt {
+  width: 0.8571428571428571em;
+}
+
+.iconplug {
+  width: 1.0067142857142857em;
+}
+
+.iconline-chart {
+  width: 1.1428571428571428em;
+}
+
+.icontoggle-on {
+  width: 1.1428571428571428em;
+}
+
+.iconmotorcycle {
+  width: 1.3019285714285713em;
+}
+
+.icontrademark {
+  width: 1.101em;
+}
+
+.iconvimeo {
+  width: 1.005em;
+}
+
+.iconenvira {
+  width: 1.0664285714285713em;
+}
+
+.iconwheelchair-alt {
+  width: 0.8582857142857142em;
+}
+
+.iconvolume-control-phone {
+  width: 0.7857142857142857em;
+}

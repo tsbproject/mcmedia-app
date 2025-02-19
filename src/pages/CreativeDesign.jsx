@@ -1,4 +1,6 @@
 import Cta from "../components/Cta";
+import PopInSection from "../components/PopInSection";
+import WhyChooseUs from "../components/WhyChooseUs";
 import styles from "./CreativeDesign.module.css";
 
 
@@ -7,12 +9,14 @@ function CreativeDesign() {
     <div className={styles.creativedesign}>
        
       <div className={styles.cd}>
+        <PopInSection>
         <div className={styles.cdbanner}>
           <h1>Creative Design and Branding</h1>
           <p>Providing creative graphic and digital design services to businesses and organizations.</p>
           <p>We specialize in creative branding, marketing, and digital design solutions.</p>
         </div>
-
+        </PopInSection>
+         <PopInSection>
         <div className={styles.cddetails}>
          <div className={styles.cddetail}>
           
@@ -42,9 +46,11 @@ function CreativeDesign() {
           </div>
           <img className={styles.cddetailimg} src="/CREATIVE-IMAGEX.jpg" alt="Creative Design" />
         </div>
+        </PopInSection>
          
          <Cta />
-           
+
+           <PopInSection>
           <div className={styles.cdgrids}>
             <div className={styles.cdgrid1}>
               <h2>Graphic Design</h2> <hr></hr>
@@ -69,6 +75,8 @@ function CreativeDesign() {
 
 
           </div>
+          </PopInSection>
+          <WhyChooseUs />
       </div>
     </div>
   );

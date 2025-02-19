@@ -24,11 +24,11 @@ const Footer = () => {
         
 
           <ul>
-          <li><Link to="/services/web-development">Website Development</Link></li>
+          <li><Link to="/services/webdevelopment">Website Development</Link></li>
           <li><Link to="/services/mobileapps">App Development</Link></li>
-          <li><Link to="/services/creative-design">Creative Design</Link></li>
-          <li><Link to="/services/ecommerce">Creative Design</Link></li>
-          <li><Link to="/services/digital-marketing">Digital Marketing</Link></li>
+          <li><Link to="/services/creativedesign">Creative Design</Link></li>
+          <li><Link to="/services/ecommerce">E-Commerce</Link></li>
+          <li><Link to="/services/digitalmarketing">Digital Marketing</Link></li>
          </ul>
            
            
@@ -38,10 +38,11 @@ const Footer = () => {
         <div className={styles.footerGrid}>
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/contact">Contact</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About us</Link></li>
+          <li><Link to="/contact">Contact us</Link></li>
+          <li><Link to="/portfolio">Portfolio</Link></li>
+          <li><Link to="/blog">Blog</Link></li>
           </ul>
         </div>
 

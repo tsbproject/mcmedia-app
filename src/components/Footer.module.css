@@ -4,8 +4,10 @@
     color: white;
     padding: 40px 20px;
     text-align: center;
-    font-size: 1.3rem;
-    border-top: .3rem solid var(--color-brand--2);
+    font-size: var(--primary-font);
+    border-top: .1rem solid var(--color-brand--2);
+    border-style: dotted;
+   
   }
 
   
@@ -41,7 +43,7 @@
     }
   }
 
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 400px) {
     .footerContainer {
       display: flex;
       grid-template-columns: repeat(1, 1fr);
@@ -57,16 +59,53 @@
   
   .footerGrid {
     text-align: left;
+
+    
   }
+
+  @media only screen and (max-width: 600px) {
+    .footerGrid {
+      
+      text-align: center;
+      
+    }
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    .footerGrid {
+      
+      text-align: center;
+      
+    }
+  }
+
+
+  @media only screen and (max-width: 400px) {
+    .footerGrid {
+      
+      text-align: center;
+      
+    }
+  }
+
+
+  .footerGrid p {
+    font-size: var(--secondary-font);
+    color: var(--color-light--3);
+  }
+
+
 
  
   
   .footerGrid h3 {
-    font-size: 18px;
+    font-size:var(--primary-font);
     margin-bottom: 15px;
     border-bottom: 2px solid var(--color-brand--2);
     display: inline-block;
     padding-bottom: 5px;
+    color: var(--color-brand--2);
   }
   
   .footerGrid ul {
@@ -82,6 +121,7 @@
     text-decoration: none;
     color: white;
     transition: color 0.3s ease;
+    font-size: var(--tertiary-font);
   }
   
   .footerGrid ul li a:hover {

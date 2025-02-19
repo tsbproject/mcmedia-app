@@ -83,22 +83,22 @@ const MobileMenu = () => {
                 className={styles.dropdownMenu}
               >
                 <li>
-                  <NavLink to="/services/web-development" className={styles.dropdownItem} onClick={closeMenu}>
+                  <NavLink to="/services/webdevelopment" className={styles.dropdownItem} onClick={closeMenu}>
                     <FaLaptopCode className={styles.icon} /> Web Development
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/services/creative-design" className={styles.dropdownItem} onClick={closeMenu}>
+                  <NavLink to="/services/creativedesign" className={styles.dropdownItem} onClick={closeMenu}>
                     <FaPalette className={styles.icon} /> Creative Design
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/services/digital-marketing" className={styles.dropdownItem} onClick={closeMenu}>
+                  <NavLink to="/services/digitalmarketing" className={styles.dropdownItem} onClick={closeMenu}>
                     <FaChartLine className={styles.icon} /> Digital Marketing
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/services/mobile-apps" className={styles.dropdownItem} onClick={closeMenu}>
+                  <NavLink to="/services/mobileapps" className={styles.dropdownItem} onClick={closeMenu}>
                     <FaMobileAlt className={styles.icon} /> Mobile App Development
                   </NavLink>
                 </li>

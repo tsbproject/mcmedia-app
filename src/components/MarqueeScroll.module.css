@@ -23,6 +23,14 @@
    
   }
 
+  @media only screen and ( max-width: 400px) {
+    .marqueeContent {
+        font-size: 5rem;
+        min-width: 500%;
+        animation: scrollRight 40s linear infinite;
+    }
+  }
+
   .marqueeContent span {
     background-image: linear-gradient(
       
