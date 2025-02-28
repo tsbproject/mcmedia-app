@@ -36,16 +36,18 @@
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
+    color: var(--color-dark--1);
   }
   
   .role {
     font-size: 14px;
-    color: #777;
+    color: var(--color-brand--2);
   }
   
   .category {
     font-size: 14px;
     font-weight: bold;
+    color: var(--color-brand--2);
     display: block;
     margin-top: 10px;
     padding: 5px 10px;

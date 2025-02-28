@@ -51,7 +51,7 @@
 
   @media only screen and (max-width : 400px) {
     .registrationForm {
-       height: 120rem;
+       height: 140rem;
     }
   }
   
@@ -76,12 +76,15 @@
   
   .inputGroup span.icon {
     position: absolute;
-    left:-10;
+    top: 0.5rem;
+    left: -1px;
     font-size: 1.3rem;
     color: #555;
-    background-color: #ccc;
+    /* background-color: #ccc; */
     padding: 1rem 1rem;
   }
+
+  
   
   
   .inputGroup select {

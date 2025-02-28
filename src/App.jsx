@@ -16,6 +16,15 @@ import Blog from "./pages/Blog";
 import PageNotFound from "./pages/PageNotFound";
 import Layout from "./pages/Layout";
 import RequestAQuote from "./pages/RequestAQuote";
+import PlanetLaundromat from "./pages/PlanetLaundromat";
+import AceLubricantChallenges from "./pages/AceLubricantChallenges";
+import MarvelMartsChallenges from "./pages/MarvelmartsChallenges";
+import MydudukeChallenges from "./pages/MydudukeChallenges";
+import MoplimoChallenges from "./pages/MoplimoChallenges";
+import FollyslobyngChallenges from "./pages/FollyslobyngChallenges";
+import ChurchChallenges from "./pages/ChurchChallenges";
+import ElfrenChallenges from "./pages/ElfrenChallenges";
+import HoperiseChallenges from "./pages/HoperiseChallenges";
 
 
 
@@ -40,6 +49,15 @@ function App() {
           <Route path="services/ecommerce" element={<ECommerce />} />
           <Route path="about" element={<About />} />
           <Route path="portfolio" element={<Portfolio />} />
+          <Route path="planetlaundromat" element={<PlanetLaundromat />} />
+          <Route path="acelubricant" element={<AceLubricantChallenges />} />
+          <Route path="marvelmarts" element={<MarvelMartsChallenges />} />
+          <Route path="myduduke" element={<MydudukeChallenges />} />
+          <Route path="moplimoservices" element={<MoplimoChallenges/>} />
+          <Route path="follyslobyng" element={<FollyslobyngChallenges/>} />
+          <Route path="stpaulwithststephen" element={<ChurchChallenges/>} />
+          <Route path="elfrenllc" element={<ElfrenChallenges/>} />
+          <Route path="hoperisecharity" element={<HoperiseChallenges/>} />
           <Route path="blog" element={<Blog />} />
           <Route path="requestquote" element={<RequestAQuote />} />
           <Route path="contact" element={<Contact />} />

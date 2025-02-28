@@ -62,7 +62,7 @@ const TestimonialCarousel = () => {
       <Slider {...settings}>
         {testimonials.map((testimonial, index) => (
           <div key={index} className={`${styles.testimonialCard} ${styles[testimonial.category.replace(/\s+/g, '')]}`}>
-            <p className={styles.feedback}>"{testimonial.feedback}"</p>
+            <p className={styles.feedback}>&quot;{testimonial.feedback}&quot;</p>
             <h3 className={styles.name}>{testimonial.name}</h3>
             <p className={styles.role}>{testimonial.role}</p>
             <span className={styles.category}>{testimonial.category}</span>

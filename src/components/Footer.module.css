@@ -91,7 +91,7 @@
 
 
   .footerGrid p {
-    font-size: var(--secondary-font);
+    font-size: var(--tertiary-font);
     color: var(--color-light--3);
   }
 
