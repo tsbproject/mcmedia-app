@@ -72,7 +72,7 @@ const AceLubricantChallenges = () => {
               </div>
            </div>
            <div className={styles.projectImg}>
-              <img src="ace-lubricantmocked.png" alt="Ace lubricant" />
+              <img src="/ace-lubricantmocked.png" alt="Ace lubricant" />
            </div>
       <motion.h2
         className={styles.title}
@@ -80,7 +80,7 @@ const AceLubricantChallenges = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        Development Challenges & Results
+        Development Challenges & Results for Ace Lubricants
       </motion.h2>
 
       <div className={styles.challenges}>

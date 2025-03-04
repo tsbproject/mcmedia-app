@@ -49,15 +49,15 @@ function App() {
           <Route path="services/ecommerce" element={<ECommerce />} />
           <Route path="about" element={<About />} />
           <Route path="portfolio" element={<Portfolio />} />
-          <Route path="planetlaundromat" element={<PlanetLaundromat />} />
-          <Route path="acelubricant" element={<AceLubricantChallenges />} />
-          <Route path="marvelmarts" element={<MarvelMartsChallenges />} />
-          <Route path="myduduke" element={<MydudukeChallenges />} />
-          <Route path="moplimoservices" element={<MoplimoChallenges/>} />
-          <Route path="follyslobyng" element={<FollyslobyngChallenges/>} />
-          <Route path="stpaulwithststephen" element={<ChurchChallenges/>} />
-          <Route path="elfrenllc" element={<ElfrenChallenges/>} />
-          <Route path="hoperisecharity" element={<HoperiseChallenges/>} />
+          <Route path="portfolio/planetlaundromat" element={<PlanetLaundromat />} />
+          <Route path="portfolio/acelubricant" element={<AceLubricantChallenges />} />
+          <Route path="portfolio/marvelmarts" element={<MarvelMartsChallenges />} />
+          <Route path="portfolio/myduduke" element={<MydudukeChallenges />} />
+          <Route path="portfolio/moplimoservices" element={<MoplimoChallenges/>} />
+          <Route path="portfolio/follyslobyng" element={<FollyslobyngChallenges/>} />
+          <Route path="portfolio/stpaulwithststephen" element={<ChurchChallenges/>} />
+          <Route path="portfolio/elfrenllc" element={<ElfrenChallenges/>} />
+          <Route path="portfolio/hoperisecharity" element={<HoperiseChallenges/>} />
           <Route path="blog" element={<Blog />} />
           <Route path="requestquote" element={<RequestAQuote />} />
           <Route path="contact" element={<Contact />} />

@@ -108,7 +108,7 @@ const MobileMenu = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/services/branding" className={styles.dropdownItem} onClick={closeMenu}>
+                  <NavLink to="/services/training" className={styles.dropdownItem} onClick={closeMenu}>
                     <FaBullhorn className={styles.icon} /> Training
                   </NavLink>
                 </li>

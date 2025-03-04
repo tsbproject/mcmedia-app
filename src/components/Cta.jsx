@@ -7,7 +7,7 @@ function Cta() {
     return (
         <PopInSection>
         <div className={styles.cta}>
-         <p> Are your for your discuss your next project</p>
+         <p> Are you ready to discuss your next project?</p>
         <Link to="/contact">
          <button>Contact us </button>
         </Link>

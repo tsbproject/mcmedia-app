@@ -66,7 +66,7 @@ const HoperiseChallenges = () => {
         </div>
      </div>
      <div className={styles.projectImg}>
-        <img src="hoperisemocked.png" alt="Hoperise charity" />
+        <img src="/hoperisemocked.png" alt="Hoperise charity" />
      </div>
       <motion.h2
         className={styles.title}

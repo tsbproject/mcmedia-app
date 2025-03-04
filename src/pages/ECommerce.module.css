@@ -10,6 +10,14 @@
      gap: 6rem;
  }
 
+ @media only screen and (max-width: 600px) {
+  .ecHeader{
+    flex-direction: column;
+    
+}
+
+ }
+
  @media only screen and (max-width: 400px) {
   .ecHeader{
     flex-direction: column;
@@ -19,8 +27,8 @@
  }
 
  .ecHeader svg {
-    width: 30rem;
-    height: 30rem;
+    width: 15rem;
+    height: 15rem;
     stroke-width: 1;
     stroke-linecap: round;
     stroke-linejoin:round ;
@@ -28,7 +36,7 @@
  }
 
  .ecHeader h1 {
-    font-size: 8rem;
+    font-size: 6rem;
     font-family: var(--font-display);
     line-height: 1.2;
     color: var(--color-light--1);
@@ -36,7 +44,7 @@
 
 @media only screen and (max-width: 400px) {
   .ecHeader h1{
-    font-size: 6rem;
+    font-size: 4rem;
     
 }
 
@@ -73,10 +81,23 @@
 
 .ecServices {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
   padding: 40px;
   background-color: var(--color-brand--2);
+}
+
+
+@media only screen and (max-width: 400px) {
+  .ecServices {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .ecServices {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
 }
 
 .ecService {

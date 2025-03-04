@@ -65,7 +65,7 @@ const ChurchChallenges = () => {
               </div>
            </div>
            <div className={styles.projectImg}>
-              <img src="stpaulmocked.png" alt="St. Paul church" />
+              <img src="/stpaulmocked.png" alt="St. Paul church" />
            </div>
       <motion.h2
         className={styles.title}
@@ -73,7 +73,7 @@ const ChurchChallenges = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        Development Challenges & Results
+        Development Challenges & Results for St. Paul with St. Stephen Church Website.
       </motion.h2>
 
       <div className={styles.challenges}>
@@ -98,7 +98,7 @@ const ChurchChallenges = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.7, delay: 1.2 }}
       >
-        <h2>Final Results 🚀</h2>
+        <h2>Final Results</h2>
         <ul>
           <li>✅ Warm and Inviting Online Presence</li>
           <li>✅ Clear and Accessible Information Architecture</li>

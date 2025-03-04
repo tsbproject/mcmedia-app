@@ -7,7 +7,7 @@ function HeaderButton() {
     return (
         <div className={styles.sitebtn}>
                     <Link to="/requestquote">
-                     <button className= {`${styles.btnwhiteheader} ${styles.smhd}`}> Request a Quote </button>
+                     <button className= {`${styles.btnwhiteheader} ${styles.hideonMobile}`}> Request a Quote </button>
                     </Link>
         
                     

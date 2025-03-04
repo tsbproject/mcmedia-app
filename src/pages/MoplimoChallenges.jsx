@@ -68,7 +68,7 @@ const MoplimoChallenges = () => {
                   </div>
                </div>
                <div className={styles.projectImg}>
-                  <img src="moplimomocked.png" alt="Marvelmarts" />
+                  <img src="/moplimomocked.png" alt="Marvelmarts" />
                </div>
         <motion.h2
           className={styles.title}
@@ -76,7 +76,7 @@ const MoplimoChallenges = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Development Challenges & Results
+          Development Challenges & Results for Mop Limo Services
         </motion.h2>
   
         <div className={styles.challenges}>

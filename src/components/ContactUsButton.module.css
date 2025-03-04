@@ -17,17 +17,13 @@
 
    
 
+}
 
 
-
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 600px) {
+    .contactusBtn {
+        padding: 1.5rem 3rem;
+    }
 }
 
 .contactusBtn:hover {

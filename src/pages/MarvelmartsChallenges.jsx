@@ -72,7 +72,7 @@ const MarvelMartsChallenges = () => {
                 </div>
              </div>
              <div className={styles.projectImg}>
-                <img src="marvelmartsmocked.png" alt="Marvelmarts" />
+                <img src="/marvelmartsmocked.png" alt="Marvelmarts" />
              </div>
       <motion.h2
         className={styles.title}
@@ -80,7 +80,7 @@ const MarvelMartsChallenges = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        Development Challenges & Results
+        Development Challenges & Results for MarveMarts online store
       </motion.h2>
 
       <div className={styles.challenges}>

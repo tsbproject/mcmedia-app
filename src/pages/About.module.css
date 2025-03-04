@@ -58,7 +58,7 @@
 @media only screen and (max-width: 400px) {
     .aboutdetails{
         grid-template-columns: repeat(1, 1fr);
-        height: 150rem;
+        height: 180rem;
     }
 
 }

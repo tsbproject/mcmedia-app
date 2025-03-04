@@ -26,6 +26,7 @@
   --bp-small: 37.05em; /* 600px/16 */
   --bp-smaller: 31.25em; /* 500px/16 */
   --bp-smallest: 25em; /* 400px/16 */
+  --bp-x-smallest: 18.75em; /* 300px/16 */
 }
 
 
@@ -82,14 +83,6 @@ body {
 }
 
 
-
-@media only screen and (max-width: 400px) {
-  .smhd{
-     visibility: hidden;
-      
-  }
-
-}
 
 
 

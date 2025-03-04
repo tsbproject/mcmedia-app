@@ -21,3 +21,14 @@ font-size: var(--heading-tertiary-font);
 
 
 }
+
+
+
+@media only screen and (max-width: 400px) {
+    .smhd{
+       visibility: hidden;
+        
+    }
+  
+  }
+ 

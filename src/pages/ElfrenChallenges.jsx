@@ -66,7 +66,7 @@ const ElfrenChallenges = () => {
         </div>
      </div>
      <div className={styles.projectImg}>
-        <img src="elfrenmocked.png" alt="Elfren llc" />
+        <img src="/elfrenmocked.png" alt="Elfren llc" />
      </div>
       <motion.h2
         className={styles.title}

@@ -1,9 +1,13 @@
 import RegistrationForm from '../components/RegistrationForm';
+
 import TechtoLearn from "../components/TechtoLearn";
 import styles from './WebDevelopmentTraining.module.css';
 
 
 function WebDevelopmentTraining() {
+    
+
+
     return (
         <div className={styles.webdevelopmentTraining}>
            <div className={styles.wdtHeader}>
@@ -36,6 +40,8 @@ function WebDevelopmentTraining() {
 
                     <TechtoLearn />
 
+
+                    
                     
                  
                  </div>

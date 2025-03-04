@@ -19,8 +19,8 @@
  }
 
  .maHeader svg {
-    width: 30rem;
-    height: 30rem;
+    width: 15rem;
+    height: 15rem;
     stroke-width: 1;
     stroke-linecap: round;
     stroke-linejoin:round ;
@@ -28,7 +28,7 @@
  }
 
  .maHeader h1 {
-    font-size: 8rem;
+    font-size: 6rem;
     font-family: var(--font-display);
     line-height: 1.2;
     color: var(--color-light--1);
@@ -36,7 +36,7 @@
 
 @media only screen and (max-width: 400px) {
   .maHeader h1{
-    font-size: 6rem;
+    font-size: 4rem;
     
 }
 
@@ -78,10 +78,16 @@
 
 .maServices {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
   padding: 40px;
   background-color: var(--color-brand--2);
+}
+
+@media only screen and (max-width: 300px) {
+  .maServices {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
 }
 
 .maService {

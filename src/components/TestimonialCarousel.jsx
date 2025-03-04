@@ -7,14 +7,14 @@ import PopInSection from "./PopInSection";
 const testimonials = [
   {
     name: "Chinedu Okafor",
-    role: "CEO, NaijaTech",
+    role: "CEO, MoveItNow Logistics",
     feedback: "Marvel Creative Media transformed our website with their top-notch Web Development services. Highly recommended!",
     category: "Web Development",
   },
   {
     name: "Aisha Bello",
-    role: "Founder, Lagos Designs",
-    feedback: "Their Creative Design team exceeded our expectations! They brought our brand to life beautifully.",
+    role: "Founder, Aisha's Kitchen",
+    feedback: "Their Digital Marketing team helped us reach a wider audience and grow our business significantly!",
     category: "Creative Design",
   },
   {
@@ -24,20 +24,20 @@ const testimonials = [
     category: "Digital Marketing",
   },
   {
-    name: "Fatima Yusuf",
-    role: "Product Manager, EkoSoft",
+    name: " Pastor Folasde ",
+    role: "CEO, MyDuDuKe Christian Dating",
     feedback: "Marvel Creative Media developed a seamless Web App for us. The user experience is flawless!",
     category: "Web App Development",
   },
   {
-    name: "Emeka Uche",
-    role: "CTO, TechNaija",
+    name: "Issa Aloba",
+    role: "CTO, Ace Lubricant",
     feedback: "Their Web Development team built a fast and responsive site that boosted our business visibility.",
     category: "Web Development",
   },
   {
     name: "Olamide Adeyemi",
-    role: "Brand Strategist, NaijaTrends",
+    role: "Brand Strategist, Beauty Randy",
     feedback: "Their Digital Marketing expertise helped us grow rapidly across social media platforms!",
     category: "Digital Marketing",
   }

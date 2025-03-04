@@ -1,4 +1,5 @@
 .registrationForm {
+    position: relative;
     max-width: 100%;
     margin: 0 auto;
     padding: 2rem;
@@ -44,7 +45,7 @@
 
   @media only screen and (max-width : 500px) {
     .registrationForm {
-       height: 115rem;
+       height: 130rem;
     }
   }
   
@@ -52,6 +53,7 @@
   @media only screen and (max-width : 400px) {
     .registrationForm {
        height: 140rem;
+      
     }
   }
   
@@ -80,7 +82,7 @@
     left: -1px;
     font-size: 1.3rem;
     color: #555;
-    /* background-color: #ccc; */
+
     padding: 1rem 1rem;
   }
 
@@ -97,6 +99,14 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+  }
+
+  @media only screen and (max-width: 400px) {
+    .inputGroup select {
+        width: 30rem;
+      margin-right: 4rem;
+       
+    }
   }
 
   .inputGroup input,
@@ -117,12 +127,20 @@
     margin-bottom: 5px;
     border: none;
     width: 40%;
+}
 
-
-  }
+@media only screen and (max-width: 400px) {
+    .inputGroup label {
+        font-size: 1.3rem;
+        width: 50%;
+        margin-left: -3rem;
+    }
+}
   
   .section {
+    position: relative;
     margin-bottom: 15px;
+    margin: auto;
   }
   
   .section h3 {
@@ -139,6 +157,12 @@
     font-size: 1.6rem;
     color: var(--color-brand--1);
   }
+
+  @media only screen and (max-width: 400px) {
+    .section label {
+        font-size: 1.3rem;
+    }
+  }
   
   .section input[type="radio"] {
     accent-color: #007bff;
@@ -147,6 +171,18 @@
     top: 3.2rem;
     left: 3rem;
   }
+
+  @media only screen and (max-width: 400px) {
+    .section input[type="radio"]  {
+      accent-color: #007bff;
+      transform: scale(1.2);
+      margin-left: 2rem;
+      position: relative;
+      top: 4rem;
+      left: 7rem;
+    }
+  }
+
   
   .registerButton {
     width: 100%;
@@ -165,11 +201,35 @@
   }
   
   
-  @media (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
     .registrationForm {
+      width: 100%;
       max-width: 100%;
       padding: 15px;
     }
+  }
+
+   
+  @media only screen and (max-width: 500px) {
+    .registrationForm {
+      width: 100%;
+      max-width: 100%;
+      padding: 15px;
+    }
+  }
+
+
+  @media only screen and (max-width: 400px) {
+    .registrationForm {
+      width: 100%;
+      max-width: 100%;
+      padding: 0;
+    }
+  }
+
+
+
+    
   
     .inputGroup input,
     .inputGroup select {
@@ -179,5 +239,4 @@
     .registerButton {
       font-size: 16px;
     }
-  } 
   

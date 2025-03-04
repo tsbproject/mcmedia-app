@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
-import styles from './SiteButton.module.css'
+import styles from './CreativeDesignBtn.module.css'
 
 
-function SiteButton() {
+function CreativeDesignBtn() {
     return (
         <div className={styles.sitebtn}>
             <Link to="services/creativedesign">
@@ -13,4 +13,4 @@ function SiteButton() {
     )
 }
 
-export default SiteButton
+export default CreativeDesignBtn

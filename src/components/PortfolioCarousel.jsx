@@ -7,15 +7,15 @@ import styles from "./PortfolioCarousel.module.css"; // CSS Modules
 import { Link } from "react-router-dom";
 
 const portfolioItems = [
-  { id: 1, title: "Planet Laundromat", img: "planetlaundromocked.png", url: "http://localhost:5173/planetlaundromat" },
-  { id: 2, title: "Ace Lubricants", img: "ace-lubricantmocked.png",  url: "http://localhost:5173/acelubricant" },
-  { id: 3, title: "HopeRise Charity", img: "hoperisemocked.png" , url: "https://hoperisecharity.org" },
-  { id: 4, title: "MarvelMarts online Shopping", img: "marvelmartsmocked.png" , url: "http://localhost:5173/marvelmarts" },
-  { id: 5, title: "MyDuDuKe Dating", img: "mydudukemocked.png" , url: "http://localhost:5173/myduduke" },
-  { id: 5, title: "Folysloby Ng Ltd.", img: "follyslobymocked.png" , url: "http://localhost:5173/follyslobyng" },
-  { id: 5, title: "Mop Limo Services", img: "moplimomocked.png" , url: "http://localhost:5173/moplimoservices" },
-  { id: 5, title: "Elfren LLC", img: "elfrenmocked.png" , url: "https://elfrenllc.com" },
-  { id: 5, title: "St. Paul with St.Stephen UK", img: "stpaulmocked.png" , url: "http://localhost:5173/stpaulwithststephen" },
+  { id: 1, title: "Planet Laundromat", img: "planetlaundromocked.png", url: "planetlaundromat" },
+  { id: 2, title: "Ace Lubricants", img: "ace-lubricantmocked.png",  url: "acelubricant" },
+  { id: 3, title: "HopeRise Charity", img: "hoperisemocked.png" , url: "hoperisecharity"},
+  { id: 4, title: "MarvelMarts online Shopping", img: "marvelmartsmocked.png" , url: "marvelmarts" },
+  { id: 5, title: "MyDuDuKe Dating", img: "mydudukemocked.png" , url: "myduduke" },
+  { id: 5, title: "Folysloby Ng Ltd.", img: "follyslobymocked.png" , url: "follyslobyng" },
+  { id: 5, title: "Mop Limo Services", img: "moplimomocked.png" , url: "moplimoservices" },
+  { id: 5, title: "Elfren LLC", img: "elfrenmocked.png" , url: "elfrenllc" },
+  { id: 5, title: "St. Paul with St.Stephen UK", img: "stpaulmocked.png" , url: "stpaulwithststephen" },
 ];
 
 const PortfolioCarousel = () => {

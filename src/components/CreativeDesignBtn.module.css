@@ -15,19 +15,14 @@
 
     backface-visibility: hidden;
 
-   
+
+}
 
 
-
-
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 400px) {
+    .btnwhite {
+        padding: 1.5rem  4rem;
+    }
 }
 
 .btnwhite:hover {

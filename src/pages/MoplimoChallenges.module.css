@@ -137,6 +137,12 @@
 
   }
 
+  @media only screen and (max-width: 600px) {
+    .projectInfo {
+      flex-direction: column;
+    }
+  }
+
   .projectInfo h1 {
     font-size: var(--heading-tertiary-font);
     font-weight: 800;

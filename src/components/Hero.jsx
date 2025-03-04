@@ -11,10 +11,10 @@ function Hero() {
             
                 {/* <HeroVideo /> */}
                 <PopInSection>
-                    <h1>Welcome to <span>Marvel Creative Media</span>,<br></br>
-                     your <span>trusted</span>  Digital Partner.</h1>
+                    <h1>Welcome to <span>Marvel Creative Media</span>.<br></br>
+                     Your <span>trusted</span>  Digital Partner.</h1> <hr></hr>
                     
-                    <h2>Your Digital Tech Rendezvous</h2>
+                    <h2>Your Digital Tech Rendezvous.</h2>
                     </PopInSection>
 
                     <SiteButton />

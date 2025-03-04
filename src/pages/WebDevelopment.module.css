@@ -36,6 +36,14 @@
 
  }
 
+ @media only screen and (max-width: 300px) {
+  .wbHeader{
+    flex-direction: column;
+    
+}
+
+ }
+
  .wbHeader svg {
     width: 30rem;
     height: 30rem;
@@ -58,7 +66,7 @@
 }
 
 @media only screen and (max-width: 400px) {
-    .wbHeader H1 {
+    .wbHeader h1 {
       font-size: 4rem;
     }
 }
@@ -99,7 +107,7 @@
 
 .wbServices {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     padding: 40px;
     /* background-color: #f9f9f9; */

@@ -66,7 +66,7 @@ const FollyslobyngChallenges = () => {
         </div>
      </div>
      <div className={styles.projectImg}>
-        <img src="follyslobymocked.png" alt="Planet Laundro" />
+        <img src="/follyslobymocked.png" alt="Planet Laundro" />
      </div>
       <motion.h2
         className={styles.title}

@@ -73,7 +73,7 @@ const PlanetLaundromat = () => {
         </div>
      </div>
      <div className={styles.projectImg}>
-        <img src="planetlaundromocked.png" alt="Planet Laundro" />
+        <img src="/planetlaundromocked.png" alt="Planet Laundro" />
      </div>
       <motion.h2
         className={styles.title}
@@ -81,7 +81,7 @@ const PlanetLaundromat = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        Development Challenges & Results
+        Development Challenges & Results for Planet Laundromat
       </motion.h2>
 
       <div className={styles.challenges}>

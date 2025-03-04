@@ -68,7 +68,7 @@ const MydudukeChallenges = () => {
                   </div>
                </div>
                <div className={styles.projectImg}>
-                  <img src="mydudukemocked.png" alt="Marvelmarts" />
+                  <img src="/mydudukemocked.png" alt="Marvelmarts" />
                </div>
         <motion.h2
           className={styles.title}
@@ -76,7 +76,7 @@ const MydudukeChallenges = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Development Challenges & Results
+          Development Challenges & Results for MyDuDuKe Christain Dating Website
         </motion.h2>
   
         <div className={styles.challenges}>

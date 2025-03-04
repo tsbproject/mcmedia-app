@@ -9,23 +9,14 @@
     right: 16px;
     margin-top: 7rem;
     margin-right: 3rem;
-    z-index: 1001; /* Higher than the menu overlay */
+    z-index: 10000; 
     background: none;
-    border: .2rem solid var(--color-brand--2);
-    border-radius: 1rem;
     padding: .7rem;
     cursor: pointer;
 
   }
   
-  /* .toggleButton {
-    padding: 8px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    margin-top: 7rem;
-    margin-right: 3rem;
-  } */
+  
 
 
   
@@ -51,17 +42,7 @@
     margin: 0;
   }
   
-  /* .menuItem {
-    display: block;
-    padding: 10px;
-    color: var(--color-brand--2);
-    text-decoration: none;
-  }
-  
-  .menuItem:hover {
-    background: lightgray;
-  }
- */
+ 
 
 
 
@@ -73,7 +54,7 @@
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.8);
-    z-index: 1000; /* Lower than the toggle button */
+    z-index: 1000; 
   }
 
    
@@ -127,7 +108,7 @@
   
 
   .menuItem:hover {
-    color: #007bff;
+    color: var(--color-brand--1);
   }
   
   /* Dropdown */
@@ -137,7 +118,7 @@
 
   .dropdown button {
     background-color:transparent ;
-    margin-left: 17rem;
+    margin-left: 16rem;
   }
   
   .dropdownMenu {
@@ -168,6 +149,6 @@
   
   .dropdownItem .icon {
     margin-right: 10px;
-    color: var(--color-brand--1);
+    color: var(--color-brand--2);
     font-size: 1rem;
   }

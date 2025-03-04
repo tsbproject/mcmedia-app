@@ -10,6 +10,14 @@
      gap: 6rem;
  }
 
+ @media only screen and (max-width: 400px) {
+  .dmHeader{
+    flex-direction: column;
+    
+}
+
+ }
+
  .dmHeader svg {
     width: 30rem;
     height: 30rem;
@@ -22,6 +30,14 @@
     line-height: 1.2;
     color: var(--color-light--1);
 }
+
+@media only screen and (max-width: 400px) {
+  .dmHeader h1{
+    font-size: 4rem;
+    
+}
+
+ }
 
 .dmHeader span {
     background-image: linear-gradient(  
@@ -61,7 +77,7 @@
 
   .dmService {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     padding: 40px;
     background-color: var(--color-brand--1);

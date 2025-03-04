@@ -35,6 +35,13 @@
     }
 
 
+  @media only screen and (max-width: 600px) {
+    .hideonMobile {
+        display: none;
+      }
+
+    }
+
 .btnwhiteheader:hover {
     transform: translateY(-1rem);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2) ;
