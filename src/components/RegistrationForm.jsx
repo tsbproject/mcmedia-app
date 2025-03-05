@@ -106,11 +106,11 @@ function RegistrationForm() {
           <select name="occupation" required onChange={handleChange}>
             <option value="">Please Choose</option>
             <option value="ITProfessional">IT Professional</option>
-            <option value="Developer">Friend/Family</option>
-            <option value="Freelance">Website</option>
-            <option value="Worker">Advertisement</option>
-            <option value="Applicant">Advertisement</option>
-            <option value="Student">Advertisement</option>
+            <option value="Developer">Developer</option>
+            <option value="Freelance">Freelancer</option>
+            <option value="Worker">Regular Worker</option>
+            <option value="Applicant">Applicant</option>
+            <option value="Student">Student</option>
           </select>
         </div>
 

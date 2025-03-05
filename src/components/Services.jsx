@@ -27,7 +27,7 @@ function Services() {
                     
                     <h3 className={styles.servicetitle}>Web Design & Development</h3>
                     <p className={styles.servicetext}>One of the key aspects of Marvel Creative Media&apos;s 
-                        system is its focus on collaboration. The company understands that effective 
+                        system is our focus on collaboration. We  understands that effective 
                         communication
 
                         <WebDevBtn />
@@ -56,7 +56,7 @@ function Services() {
                         <use href="sprite.svg#icon-megaphone"></use>
                      </svg> 
                     <h3 className={styles.servicetitle}>Digital Marketing</h3>
-                    <p className={styles.servicetext}>Social Media Marketing is a key service we offer
+                    <p className={styles.servicetext}>Social Media Marketing is of of thr key service we offer
                         at Marvel Creative Media. We collaborate with our clients to create
                         engaging content for social media
                         <DigitalMarketBtn />
@@ -72,8 +72,8 @@ function Services() {
                      </svg> 
                     <h3 className={styles.servicetitle}>Trainning</h3>
                     <p className={styles.servicetext}>One of the key features of Marvel Creative Media&apos;s 
-                        training programs is their emphasis on practical learning. Their courses
-                         are designed to be hands-on.
+                        training programs is our emphasis on practical learning. Our courses
+                         are designed to be a hands-on.
                          <TrainingBtn />
                    </p>
 

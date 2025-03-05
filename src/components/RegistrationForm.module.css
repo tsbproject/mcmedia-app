@@ -7,7 +7,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-family: var(--font-display);
-    height: 105rem;
+    height: 120rem;
     box-shadow: 0 3rem 5rem rgba(0, 2, 2, 0.4);
    
   }
@@ -36,7 +36,7 @@
 
   @media only screen and (max-width : 600px) {
     .registrationForm {
-       height: 100rem;
+       height: 140rem;
     }
   }
   
@@ -45,7 +45,7 @@
 
   @media only screen and (max-width : 500px) {
     .registrationForm {
-       height: 130rem;
+       height: 150rem;
     }
   }
   
@@ -64,9 +64,11 @@
   
   
    h2 {
+    font-size: var(--heading-secondary-font);
     text-align: center;
     color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
+
   }
   
   .inputGroup {
@@ -140,12 +142,12 @@
   .section {
     position: relative;
     margin-bottom: 15px;
-    margin: auto;
+    /* margin: auto; */
   }
   
   .section h3 {
     font-size: var(--tertiary-font);
-    margin-bottom: 10px;
+    margin-top: 5rem;
     color: #444;
   }
   
@@ -156,11 +158,46 @@
     cursor: pointer;
     font-size: 1.6rem;
     color: var(--color-brand--1);
+    margin-right: 30rem;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .section label {
+        font-size: 1.5rem;
+        margin-right: 20rem;
+        
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .section label {
+        font-size: 1.5rem;
+        margin-right: 20rem;
+        
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .section label {
+        font-size: 1.5rem;
+        margin-right: 20rem;
+        
+    }
   }
 
   @media only screen and (max-width: 400px) {
     .section label {
         font-size: 1.3rem;
+        /* margin: auto; */
+    }
+  }
+
+  @media only screen and (max-width: 300px) {
+    .section label {
+        font-size: 1rem;
+        margin: auto;
+        /* margin-right: 20rem; */
+        
     }
   }
   
@@ -169,7 +206,31 @@
     transform: scale(1.2);
     position: relative;
     top: 3.2rem;
-    left: 3rem;
+    left: 17rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .section input[type="radio"]  {
+      accent-color: #007bff;
+      transform: scale(1.2);
+      margin-left: 2rem;
+      width: 100%;
+      position: relative;
+      top: 4rem;
+      left: 10rem;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .section input[type="radio"]  {
+      accent-color: #007bff;
+      transform: scale(1.2);
+      /* margin-left: 2rem; */
+      width: 100%;
+      position: relative;
+      top: 4rem;
+      left: 10rem;
+    }
   }
 
   @media only screen and (max-width: 400px) {
@@ -177,6 +238,7 @@
       accent-color: #007bff;
       transform: scale(1.2);
       margin-left: 2rem;
+      width: 100%;
       position: relative;
       top: 4rem;
       left: 7rem;

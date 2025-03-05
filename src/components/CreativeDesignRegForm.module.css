@@ -40,16 +40,25 @@
 
   @media only screen and (max-width : 500px) {
     .creativedesignregForm {
-       height: 110rem;
+       height: 130rem;
     }
   }
 
   @media only screen and (max-width : 400px) {
     .creativedesignregForm {
        height: 130rem;
+     
     }
   }
+
+  @media only screen and (max-width : 300px) {
+    .creativedesignregForm {
+       height: 140rem;
+    }
+  }
+
   
+ 
   
 
 
@@ -57,6 +66,7 @@
   
   
    h2 {
+    font-size: var(--heading-tertiary-font);
     text-align: center;
     color: #333;
     margin-bottom: 20px;
@@ -116,6 +126,18 @@
     }
   }
 
+  @media only screen and (max-width: 300px) {
+    .inputGroup span.icon {
+      position: absolute;
+      left: -1rem;
+      bottom: 2.4rem;
+      font-size: 1.3rem;
+      color: #555;
+      background-color: #ccc;
+      padding: 1.1rem 1rem;
+    }
+  }
+
   
   
   .inputGroup select {
@@ -158,6 +180,15 @@
       margin-left: -4rem;
     }
   }
+
+  @media only screen and (max-width: 300px) {
+    .inputGroup label {
+      font-size: 1.3rem;
+      width: 50%;
+      margin-left: -4rem;
+    }
+  }
+  
   
   .section {
     position: relative;
@@ -166,7 +197,7 @@
   }
   
   .section h3 {
-    font-size: var(--tertiary-font);
+    font-size: var(--primary-font);
     margin-bottom: 10px;
     color: #444;
   }
@@ -197,6 +228,14 @@
       font-size: 1.3rem;
     }
   }
+
+  @media only screen and (max-width: 300px) {
+    .section label {
+      font-size: 1.1rem;
+      margin-left: 0rem;
+    }
+  }
+  
   
   .section input[type="radio"] {
     accent-color: #007bff;
@@ -210,7 +249,7 @@
     .section input[type="radio"]  {
       position: relative;
       top: 4.8rem;
-      left: 5rem;
+      left: 0;
     }
   }
 
@@ -218,7 +257,7 @@
     .section input[type="radio"]  {
       position: relative;
       top: 5rem;
-      left: 5rem;
+      left: 0;
     }
   }
 
@@ -226,9 +265,18 @@
     .section input[type="radio"]  {
       position: relative;
       top: 5rem;
-      left: 4rem;
+      left: -1rem;
     }
   }
+
+  @media only screen and (max-width: 300px) {
+    .section input[type="radio"]  {
+      position: relative;
+      top: 5.1rem;
+      left: .3rem;
+    }
+  }
+
 
   .inputGroup::placeholder {
     font-size: 1.2rem;
@@ -273,9 +321,18 @@
       padding: 15px;
     }
   }
+
+
+  @media only screen and (max-width: 300px) {
+    .creativedesignregForm {
+      max-width: 100%;
+      padding: 15px;
+    }
+  }
   
     .inputGroup input,
     .inputGroup select {
+      width: 100%;
       font-size: 14px;
     }
   

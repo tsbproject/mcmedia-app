@@ -15,6 +15,8 @@
     cursor: pointer;
 
   }
+
+  
   
   
 
@@ -54,7 +56,7 @@
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.8);
-    z-index: 1000; 
+    z-index: 2000; 
   }
 
    
@@ -74,6 +76,26 @@
     font-size: 1.5rem;
     color: var(--color-brand--2);
     text-decoration: none;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .menuItem {
+      font-size: 2rem;
+    }
+  }
+  
+
+  @media only screen and (max-width: 200px) {
+    .menuItem {
+      font-size: 2rem;
+    }
+  }
+  
+
+  @media only screen and (max-width: 400px) {
+    .menuItem {
+      font-size: 2rem;
+    }
   }
   
   .menuItem:hover {
@@ -119,6 +141,24 @@
   .dropdown button {
     background-color:transparent ;
     margin-left: 16rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .dropdown button {
+      margin-left: 25rem;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .dropdown button {
+      margin-left: 23;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .dropdown button {
+      margin-left: 18rem;
+    }
   }
   
   .dropdownMenu {

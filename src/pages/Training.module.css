@@ -79,6 +79,20 @@
   background-color: var(--color-brand--2);
 }
 
+@media only screen and (max-width: 600px) {
+  .trainingServices {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .trainingServices {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+
+
 @media only screen and (max-width: 400px) {
   .trainingServices {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
